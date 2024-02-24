@@ -1,8 +1,6 @@
 ![file cover - 1](https://github.com/rbpolim/html-starter/assets/66570560/70025fc9-4df7-43a3-aac9-6f71b7ca0129)
 
-# Landing Page Cook
-
-## SENAC - São Paulo
+## 🏫 SENAC - São Paulo
 
 - **Course** - Analise e Desenvolvimento de Sistemas
 - **Instructor** - Bruno de Oliveira
@@ -10,7 +8,7 @@
 - **Theme** - Landing Page para Autônomo
 - **Subject** - Web Standards
 
-## Description
+## 💭 Description
 Project developed during the front-end development course at Senac São Paulo. The website is built using HTML & CSS and is responsive and mobile-friendly.
 
 ## Prototype
