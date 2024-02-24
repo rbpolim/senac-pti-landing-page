@@ -1,14 +1,27 @@
----
-name: HTML Starter
-slug: html-starter-with-analytics
-description: HTML5 template with analytics and advanced routing configuration.
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html
-relatedTemplates:
-  - nextjs-boilerplate
----
+![file cover - 1](https://github.com/rbpolim/html-starter/assets/66570560/70025fc9-4df7-43a3-aac9-6f71b7ca0129)
 
-# HTML Starter
+# Landing Page Cook
 
-This is a starter HTML5 templates which is configured with Vercel Analytics (through a `script` tag), advanced routing with [Vercel Edge Middleware](https://vercel.com/docs/concepts/functions/edge-middleware), as well as some basic styles
+## SENAC - São Paulo
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html)
+- **Course** - Analise e Desenvolvimento de Sistemas
+- **Instructor** - Bruno de Oliveira
+- **Student** -  Rodrigo Polim
+- **Theme** - Landing Page para Autônomo
+- **Subject** - Web Standards
+
+## Description
+Project developed during the front-end development course at Senac São Paulo. The website is built using HTML & CSS and is responsive and mobile-friendly.
+
+## Prototype
+[Figma Prototype](https://www.figma.com/file/Vy4jncWQJ2dZYogzzTnb1e/senac-landing-page?type=design&node-id=0-1&mode=design&t=YqzT13HA7EDIOdlh-0)
+
+## Demo
+[Live Demo](https://html-starter-henna-seven.vercel.app/)
+
+## Features
+
+- Responsive
+- Mobile-friendly
+- Simple and clean design
+- Easy to use
