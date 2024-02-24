@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="/_vercel/insights/script.js"></script>
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
+    /> -->
+    <link rel="stylesheet" href="styles.css">
     <title>Vercel HTML Starter</title>
     <meta
       name="description"
@@ -15,82 +16,126 @@
     />
   </head>
   <body>
-    <h1>Vercel HTML Starter</h1>
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
+    <header>
+      <div class="header-wrap">
+        <h2 class="logo">Spice Food</h2>
+        <nav>
+          <ul>
+            <li><a class="nav-link" href="about.html">About</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="hero-section-wrap">
+          <div>
+            <h1 class="title">Cook your meal</h1>
+            <p style="max-width: 420px;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+            </p>
+            <div class="btn-wrapper"> 
+              <button class="btn-primary">Let's cook</button>
+              <button class="btn-secondary">Explore more</button>
+            </div>
+          </div>
+          <div>
+            <img class="hero-img" src="/public/cook.png" alt="cook" />
+          </div>
+        </div>
+      </section>
+      <section class="feature-section">
+        <div class="feature-section-wrap">
+          <div>
+            <h1 class="heading">Cook your favorite meal</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. </p>
+            <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+            </p>
+          </div>
+          <!-- CARDS -->
+          <div class="feature-section-cards">
+            <div class="card">
+              <!-- imagem -->
+              <img class="img-card" src="/public/bar.png" alt="food" />
+              <h4>Menu variety</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+              </p>
+            </div>
+            <div class="card">
+              <!-- imagem -->
+              <img class="img-card" src="/public/cooking.png" alt="food" />
+              <h4>Menu variety</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+              </p>
+            </div>
+            <div class="card">
+              <!-- imagem -->
+              <img class="img-card" src="/public/chef.png" alt="food" />
+              <h4>Menu variety</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+              </p>
+            </div>
+            <div class="card">
+              <!-- imagem -->
+              <img class="img-card" src="/public/fast-food.png" alt="food" />
+              <h4>Menu variety</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-section">
+        <div class="hero-section-wrap">
+          <div>
+            <h1 class="title">Cook your meal</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <div class="btn-wrapper"> 
+              <button class="btn-secondary">Let's cook</button>
+            </div>
+          </div>
+          <div>
+            <img class="about-img" src="/public/cook-about.jpg" alt="cook" />
+          </div>
+        </div>
+      </section>
+      <section class="form-section">
+        <div class="form-section-wrap">
+          <form>
+            <h3 
+              class="title" 
+              style="
+                text-align: center;
+                margin-bottom: 20px;
+              "
+            >
+              Contact me
+            </h3>
+            <div class='input-wrap'>
+              <label>Name</label>
+              <input type="text" placeholder="Enter your name" />
+            </div>
+            <div class='input-wrap'>
+              <label>Email</label>
+              <input type="email" placeholder="Enter your email" />
+            </div>
+            <div class="btn-wrapper"> 
+              <button class="btn-primary">Let's cook</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    <footer>
+      <div class="footer-wrap">
+        <p>Spice cook &copy; 2024 My Website</p>
+      </div>
+    </footer>
   </body>
 </html>
